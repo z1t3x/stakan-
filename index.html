@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/3dObject.css">
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/3dObject.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="myTurntable" class="turntable">
+      <ul>
+        <li data-img-src="img/plant1.jpg"></li>
+        <li data-img-src="img/plant2.jpg"></li>
+        <li data-img-src="img/plant3.jpg"></li>
+        <li data-img-src="img/plant4.jpg"></li>
+        <li data-img-src="img/plant5.jpg"></li>
+        <li data-img-src="img/plant6.jpg"></li>
+        <li data-img-src="img/plant7.jpg"></li>
+        <li data-img-src="img/plant8.jpg"></li>
+        <li data-img-src="img/plant9.jpg"></li>
+        <li data-img-src="img/plant10.jpg"></li>
+        <li data-img-src="img/plant11.jpg"></li>
+        <li data-img-src="img/plant12.jpg"></li>
+        <li data-img-src="img/plant13.jpg"></li>
+        <li data-img-src="img/plant14.jpg"></li>
+        <li data-img-src="img/plant15.jpg"></li>
+        <li data-img-src="img/plant16.jpg"></li>
+        <li data-img-src="img/plant17.jpg"></li>
+        <li data-img-src="img/plant18.jpg"></li>
+        <li data-img-src="img/plant19.jpg"></li>
+        <li data-img-src="img/plant20.jpg"></li>
+        <li data-img-src="img/plant21.jpg"></li>
+        <li data-img-src="img/plant22.jpg"></li>
+        <li data-img-src="img/plant23.jpg"></li>
+        <li data-img-src="img/plant24.jpg"></li>
+        <li data-img-src="img/plant25.jpg"></li>
+        <li data-img-src="img/plant26.jpg"></li>
+        <li data-img-src="img/plant27.jpg"></li>
+        <li data-img-src="img/plant28.jpg"></li>
+      </ul>
+    </div>
+    <script>
+// $('#myTurntable').goTo3d();
+$('#myTurntable').goTo3d({
+  type: 'x',// x, y или scroll
+  reverse: true, // true or false
+  scroll: 'top', // только когда axis = 'scroll' // top, middle, or bottom
+});
+    </script>
+  </body>
+</html>
